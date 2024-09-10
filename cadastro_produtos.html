@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Online - Cadastro de Produtos</title>
+</head>
+<body>
+    <header>
+      <nav>
+        <ul><a href="index.html">Home</a></ul>
+        <ul><a href="lista_produtos.html">Lista de Produtos</a></ul>
+      </nav>
+      <h2>Cadastro de Produtos</h2>
+    </header>
+    <main>
+      <form action="#">
+        <fieldset>
+          <label for="nomeProduto">Nome do Produto</label>
+          <input type="text" name="produto" id="nomeProduto" required>
+          <label for="listaProdutos">Lista de Produtos</label>
+              <select name="lista" id="listaProdutos" required>
+                <option value="camisa">Camisa</option>
+                <option value="calca">Calça</option>
+                <option value="tenis">Tênis</option>
+              </select>
+              <label for="precoProduto">Preço</label>
+              <input type="text" name="produto" id="precoProduto" required>
+              <label for="quantidadeProduto">Quantidade em Estoque</label>
+              <input type="number" name="produto" min="1" id="quantidadeProduto" required>
+              <label for="promocaoProduto">Produto está em promoção? </label>
+              <input type="checkbox" name="" id="promocaoProduto">
+              <button type="submit">Cadastrar Produto</button>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <p>feito por: Caren Divino</p>
+    </footer>
+</body>
+</html>
